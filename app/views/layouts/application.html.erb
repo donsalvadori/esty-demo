@@ -2,19 +2,19 @@
 <html>
 <head>
   <title>Etsydemo</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= render 'header' %>
+<%= render 'layouts/header' %>
 
 <div class="container">
 	
 	<%= yield %>
 
-<%= render 'footer' %>
+<%= render 'layouts/footer' %>
 </div>
 
 </body>
