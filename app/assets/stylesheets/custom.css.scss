@@ -10,6 +10,14 @@ body {
 	background-color: #EFEFEB;
 }
 
+.jumbotron {
+  background-image: url('https://dl.dropboxusercontent.com/s/hr1ikyy0xlppox0/jumbotron.jpg?dl=0');
+  h1, h2 {
+    font-family: guardian-egyptt, georgia, serif;
+    color: white;
+  }
+}
+
 .navbar-default .navbar-brand{
 	font-family: guardian-egyptt, georgia, serif;
 	font-weight: 400;
